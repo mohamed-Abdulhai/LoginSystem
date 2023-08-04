@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+        <!--  Font Awesome Css file  -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!--  Bootstrap file  -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!--  Main Style sheet  -->
+        <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- signup start -->
+    <div class="container">
+        <div class="signup py-5 w-75 m-auto px-1 text-center box">
+            <h1>Smart Login System</h1>
+            <form id="signupform">
+                <input type="text" placeholder="Enter your name" name="username" id="userSignupName" required>
+                    
+                <input type="email" placeholder="Enter your email" name="email" id="userSignupEmail">
+                <input type="password" placeholder="Enter your password" name="Password" id="userSignupPassword" >
+                <p class="text-danger m-4" id="incorect"></p>
+                <p class="text-success m-4" id="corect"></p>
+                <p class="sign" id="sign"> you allreday have  <a href="index.html"> Sign Up</a></p>
+                <button class="btn btn-outline-info" id="sigBtn" type="button">Signup</button>
+                    
+            </form>
+        </div>
+    </div>
+        <!-- signup end -->
+
+                <!-- Font Awesome js file -->
+        <script src="js/all.min.js"></script>
+
+        <!-- bootstrap js file -->
+        <script src="js/bootstrap.bundle.js"></script>
+
+        <!-- the main js file -->
+        <script src="js/main.js"></script>
+</body>
+</html>

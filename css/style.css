@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+:root{
+    --bgColor: rgb(36, 53, 63);
+}
+.bagcolor{
+    background-color: var(--bgColor)
+}
+.container{
+    width: 75%;
+    margin: auto
+}
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color: var(--bgColor)
+}
+h1{
+    color: #17a2b8;
+}
+
+.box{
+    border: 0 transparent solid;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+input{
+    background-color: var(--bgColor);
+    width: 85%;
+    margin: 10px auto;
+    color: white;
+    border-radius: 5px;
+    padding:5px;
+    border: 1px solid #ced4da;
+}
+input:focus{ 
+    color: white;
+    background-color: var(--bgColor);
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+#logBtn, #sigBtn{
+    width: 85%;
+    margin: 15px auto;
+}
+.sign{
+    color: white;
+}
+.sign a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2 all;
+}
+.sign a:hover{
+    text-decoration: underline;
+}
+
+
+
